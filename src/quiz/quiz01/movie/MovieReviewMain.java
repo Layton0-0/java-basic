@@ -1,4 +1,4 @@
-package quiz.movie;
+package quiz.quiz01.movie;
 
 public class MovieReviewMain {
     public static void main(String[] args) {

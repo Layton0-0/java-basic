@@ -1,4 +1,4 @@
-package quiz.rectangle;
+package quiz.quiz03.rectangle;
 
 public class Rectangle {
     int width;

@@ -1,4 +1,4 @@
-package quiz.account;
+package quiz.quiz03.account;
 
 public class AccountMain {
     public static void main(String[] args) {

@@ -1,38 +1,17 @@
-package quiz.productOrder;
+package quiz.quiz01.productOrder;
 
-import java.util.Scanner;
-
-// 아래 입력, 출력 예시를 참고해서 다음 사항을 적용하자.
-// 주문 수량을 입력 받자
-// 예) 입력할 주문의 개수를 입력하세요:
-// 가격, 수량, 상품명을 입력 받자
-// 입력시 상품 순서를 알 수 있게 "n번째 주문 정보를 입력하세요." 라는 메시지를 출력하세요.
-// 입력이 끝나면 등록한 상품과 총 결제 금액을 출력하자.
-public class ProductOrderMain3 {
+// 클래스 안에 main() 메서드를 포함하여,
+// 여러 상품의 주문 정보를 배열로 관리하고,
+// 그 정보들을 출력하고,
+// 최종 결제 금액을 계산하여 출력하자.
+public class ProductOrderMain2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("입력할 주문의 개수를 입력하세요: ");
-        int n = sc.nextInt();
-        sc.nextLine();
-
         // 여러 상품의 주문 정보를 담는 배열 생성
-        ProductOrder[] orders = new ProductOrder[n];
+        ProductOrder[] orders = new ProductOrder[3];
         // createOrder()를 여러번 사용해서 상품 주문 정보들을 생성하고 배열에 저장
-        for (int i = 0; i < n; i++) {
-            System.out.println((i + 1) + "번째 주문 정보를 입력하세요.");
-
-            System.out.print("상품명: ");
-            String productName = sc.nextLine();
-
-            System.out.print("가격: ");
-            int price = sc.nextInt();
-
-            System.out.print("수량: ");
-            int quantity = sc.nextInt();
-            sc.nextLine();
-
-            orders[i] = createOrder(productName, price, quantity);
-        }
+        orders[0] = createOrder("두부", 2000, 2);
+        orders[1] = createOrder("김치", 5000, 1);
+        orders[2] = createOrder("콜라", 1500, 2);
         // printOrders()를 사용해서 상품 주문 정보 출력
         printOrders(orders);
         // getTotalAmount()를 사용해서 총 결제 금액 계산

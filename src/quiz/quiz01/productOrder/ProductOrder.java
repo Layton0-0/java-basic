@@ -1,4 +1,4 @@
-package quiz.productOrder;
+package quiz.quiz01.productOrder;
 
 public class ProductOrder {
     String productName;

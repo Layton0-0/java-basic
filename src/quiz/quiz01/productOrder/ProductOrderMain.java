@@ -1,4 +1,4 @@
-package quiz.productOrder;
+package quiz.quiz01.productOrder;
 
 public class ProductOrderMain {
     // ProductOrderMain 클래스 안에 main() 메서드를 포함하여,

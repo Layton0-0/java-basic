@@ -1,4 +1,4 @@
-package quiz.account;
+package quiz.quiz03.account;
 
 public class Account {
     // 잔액

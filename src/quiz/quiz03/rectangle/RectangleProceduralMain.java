@@ -1,4 +1,4 @@
-package quiz.rectangle;
+package quiz.quiz03.rectangle;
 
 /*
     절차 지향 프로그래밍 방식으로 되어 있는 코드를 객체 지향 프로그래밍 방식으로 변경해라.
