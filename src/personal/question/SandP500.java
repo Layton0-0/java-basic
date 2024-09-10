@@ -9,7 +9,7 @@ public class SandP500 {
         // 1주당 가격
         long seed = 770000;
         // 주 개수
-        int howMany = 39;
+        int howMany = 34;
         // 연 상승률
         final double I_RATE = 0.13;
         // 세금

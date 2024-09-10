@@ -31,3 +31,4 @@ bin/
 ### custom ###
 *.iml
 .idea/
+/src/personal/
