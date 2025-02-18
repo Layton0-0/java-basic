@@ -10,7 +10,7 @@ public class PrepareGettingOlder {
     // 올해
     static final int THIS_YEAR = 2024;
     // 세금
-    static final double SAY_GEUM = 0.073;
+    static final double TAX = 0.073;
     static final double SANG_YEO = 0.69;
     // 동호회 비 + 과학인
     static final int DONG_HO = 55000;
@@ -39,6 +39,6 @@ public class PrepareGettingOlder {
     }
 
     private static int calculatePerMonth(int per_year) {
-        return (int) (per_year * SAY_GEUM * PER_MONTH) - DONG_HO;
+        return (int) (per_year * TAX * PER_MONTH) - DONG_HO;
     }
 }
